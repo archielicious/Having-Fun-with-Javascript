@@ -1,2 +1,2 @@
 # Having-Fun-with-Javascript
-Several fun and interesting mathematical problems were solved by programming the computer with Javascript
+This project was created to solve several fun and interesting mathematical problems by programming the computer with Javascript
