@@ -7,6 +7,6 @@ function findFactorial(n) {
   return factorial
   }
   else{
-    return 0
+    return 1
   }
 }
