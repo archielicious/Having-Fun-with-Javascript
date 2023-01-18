@@ -7,13 +7,13 @@ function matrixMultiplication(lst1,lst2){
                 let sum=0
                 for(let j=0;j<lst1[0].length;j=j+1){
                     sum=sum+(lst1[i][j]*lst2[j][k])
-            }
+                }
             row.push(sum)
-        }
+            }
         lst.push(row)
-    }
-    return lst
-   } 
+        }
+        return lst
+    } 
     else{
         return 'Matrix multiplication is not possible for the given matrices'
     } 
