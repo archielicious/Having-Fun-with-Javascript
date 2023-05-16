@@ -6,10 +6,10 @@ function hcfBasic(a, b) {
         return a
     }
     else if(a>b){
-        return gcdBasic(b, a%b)
+        return hcfBasic(b, a%b)
     }
     else if(b>a){
-        return gcdBasic(a, b%a)
+        return hcfBasic(a, b%a)
     }
     else if(a===b){
         return a
