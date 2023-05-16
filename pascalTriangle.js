@@ -11,4 +11,4 @@ function pascalTriangle(A) {
     R[i].push(1);
   }
   return R;
-}
+// }
