@@ -36,7 +36,7 @@ function intersectionOfTwoArrays(n, nums1, m, nums2){
 //         map.set(j, map.get(j)-1)
 //     }
 // }
-// return result
+// return result.sort((a, b)=>a-b)
     
 }
 
