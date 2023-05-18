@@ -28,5 +28,5 @@ function mostFrequent(text) {
 //             ans=j
 //         }
 //     }
-//     return ans
+    return ans
 }
