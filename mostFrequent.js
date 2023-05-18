@@ -13,4 +13,20 @@ function mostFrequent(text) {
             return [String.fromCharCode(k), max]
         }
     }
+    
+//     let map=new Map()
+//     let str=text.split("")
+//     for (i of str){
+//         map.set(i, (map.get(i) || 0) + 1)
+//     }
+//     let final=[...map].sort((a, b)=>a[0].charCodeAt(0)-b[0].charCodeAt(0))
+//     let largest=-Infinity
+//     let ans=[]
+//     for (j of final){
+//         if (j[1]>largest){
+//             largest=j[1]
+//             ans=j
+//         }
+//     }
+//     return ans
 }
