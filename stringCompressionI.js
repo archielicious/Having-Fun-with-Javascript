@@ -13,7 +13,7 @@
     //     }
     // }
       
-    //  // for (i=0; i<s.length; i++){
+    //  // for (let i=0; i<s.length; i++){
     //  //     if (!obj[s[i]]){
     //  //         obj[s[i]]=1
     //  //     }
@@ -21,6 +21,7 @@
     //  //         obj[s[i]]+=1
     //  //     }
     //  // }
+        
     // let str=""
     // for (let k in obj){
     //     str+=k+obj[k]
