@@ -26,7 +26,7 @@
     // for (let k in obj){
     //     str+=k+obj[k]
     // }
-    // return str
+    // return str.length<s.length ? str : s
     
     let map=new Map()
     for (let i=0; i<s.length; i++){
@@ -36,5 +36,5 @@
     for (let k of map.keys()){
         str+=k+map.get(k)
     }
-       return str
+       return str.length<s.length ? str : s
 }
