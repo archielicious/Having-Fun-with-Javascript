@@ -28,11 +28,14 @@ function countPrimes(n) {
             }
         }
     }
+    let primes=[]
     let count=0
     for (let i=2; i<=n; i++){
         if (prime[i]===1){
+            primes.push(i)
             count=count+1
         }
     }
+    console.log("The primes are", primes)
     return count
 }
